@@ -1,0 +1,115 @@
+div.side-box{
+    margin: 30px;
+    background-color: white;
+    border-radius: 30px;
+    height: 100%;
+    width: 350px;
+    min-height: 700px;
+    position:relative;
+}
+
+
+#user-box{
+    align-content: center;
+    align-items: center;
+    /*?text-align-all: center;*/
+    text-align: center;
+}
+img.profile-img{
+    border-radius: 20px;
+    margin: 30px;
+}
+.make-round{
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: -5px;
+}
+
+.jumbo-heading{
+    height:50px;
+}
+
+.course-tab{
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 90px;
+}
+
+.button-div{
+    display: flex;
+    margin-top: 25px;
+}
+
+ #basic-nav-dropdown{
+     color: white;
+     border-radius: 10px;
+     border: none;
+     padding: 10px 15px;
+     background-color: black;
+
+ }
+
+ .tab-headings{
+     color: lightslategray;
+     padding:10px 50px!important;
+     /*border-bottom-color: black!important;*/
+     border-top-color: lightcyan!important;
+     border-left-color: lightcyan!important;
+     border-right-color: lightcyan!important;
+ }
+
+.navbar-items{
+    list-style-type: none;
+    padding-right: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+#course-heading{
+    height: 30px;
+}
+
+
+.backgroundcolor{
+    background-color: lightcyan!important;
+}
+
+button.tab-button{
+    background-color: yellowgreen;
+    height: 50px;
+    border: none;
+    margin-top: -1px;
+    margin-left: 25px;
+}
+
+.box {
+    margin: 20px;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.grid2x2 {
+    margin-top: 30px;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.grid2x2 > div {
+    display: flex;
+    flex-basis: calc(50% - 40px);
+    justify-content: center;
+    flex-direction: column;
+}
+.grid2x2 > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
