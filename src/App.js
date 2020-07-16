@@ -5,6 +5,7 @@ import Course from "./components/AllCourse"
 import UserProfile from "./components/UserProfile";
 import "./components/navstyle.css"
 import SignUp from "./components/SignUp";
+import Log from "./components/Login";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
                   <Course/>
               </div>
               {/*<UserProfile className="flex-sm-fill"/>*/}
-              <SignUp/>
+              <Log/>
             </div>
       </div>
   );

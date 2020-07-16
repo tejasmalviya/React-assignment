@@ -2,23 +2,23 @@ import React from 'react';
 import "./navstyle.css"
 import ProfileNav from "./ProfileNav";
 
-function UserProfile() {
+function UserProfile(props) {
     return (
         <div className="container-fluid side-box">
             <ProfileNav/>
             <div id="user-box">
             <img
-                src="https://image.flaticon.com/icons/png/512/21/21294.png"
+                src={props.user.imageUrl}
                 width="150"
                 height="150"
                 className="profile-img"
                 alt="React logo"
             />
             <h3>
-                User Name
+                {props.user.name}
             </h3>
                 <h6 id="user-tag">
-                    User tag
+                    {props.user.email}
                 </h6>
             </div>
             <div className="grid2x2">
