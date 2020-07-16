@@ -1,3 +1,30 @@
+Courses React App
+To Run the Project:
+
+//Step 1:
+git clone [repository url]
+
+//Step 2:
+cd [local repository]
+
+//Step 3: 
+/* Delete the node_modules folder and any 'lock' files such as 
+yarn.lock or package-lock.json if present.*/
+
+//Step 4: 
+npm install
+
+//Step 5:
+npm start
+
+
+Dribbble Link : https://dribbble.com/shots/10750999-Top-Online-Courses/attachments/2418830?mode=media
+
+![alt text](https://github.com/tejasmalviya/React-assignment/blob/master/public/favicon.ico)
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
