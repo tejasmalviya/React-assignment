@@ -1,4 +1,4 @@
-**Courses React App
+**Courses React App**
 
 To Run the Project:
 
@@ -14,7 +14,7 @@ npm install
 //Step 4:
 npm start
 
-**Please run on http://localhost:3000 only!!
+**Please run on http://localhost:3000 only!!**
 
 Dribbble Link : https://dribbble.com/shots/10750999-Top-Online-Courses/attachments/2418830?mode=media
 
