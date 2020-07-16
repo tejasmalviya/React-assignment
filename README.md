@@ -1,4 +1,5 @@
 Courses React App
+
 To Run the Project:
 
 //Step 1:
@@ -20,7 +21,7 @@ npm start
 
 Dribbble Link : https://dribbble.com/shots/10750999-Top-Online-Courses/attachments/2418830?mode=media
 
-![alt text](https://github.com/tejasmalviya/React-assignment/blob/master/public/favicon.ico)
+![alt text](https://github.com/tejasmalviya/React-assignment/blob/master/screencapture-localhost-3000-2020-07-17-00_04_57.png)
 
 
 
