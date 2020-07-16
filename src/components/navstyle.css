@@ -8,6 +8,27 @@ div.side-box{
     position:relative;
 }
 
+#major{
+    flex-basis: 90%;
+    /*background-color: red;*/
+}
+#minor{
+    margin-right: -35px;
+    margin-top: 80px;
+    flex-basis: 10%;
+    width: 100%;
+}
+
+.mid-img{
+    margin-bottom: 25px;
+    border-radius:20px;
+
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+}
 
 #user-box{
     align-content: center;
