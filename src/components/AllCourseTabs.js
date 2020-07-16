@@ -1,33 +1,37 @@
 import React from 'react';
-import CourseTab from "./CourseTab";
-import "./navstyle.css";
+import Tab from "./Tab";
+import "./css/Style.css";
 
 function AllCourseTabs() {
-    const allcourses=[
+
+    // Course Inforation will be received from backend(API calls)
+    // Here to display I am using dummy data declared below here
+
+    const allCourses=[
         {
-            title:"E-learning",
-            desc:"this is descption",
+            title:"E-learning and Digital Cultures",
+            desc:"Feb 4,2020 - Feb 22,2020",
+            rating: 8.7
+        },
+        {
+            title: "Machine Learning: Regression",
+            desc: "Feb 8,2020 - Feb 18,2020",
+            rating: 8.6
+        },
+        {
+            title:"Principles of Computing(Part 1)",
+            desc:"Feb 14,2020 - Feb 24,2020",
             rating: 6.7
         },
         {
-            title: "E-learning 2",
-            desc: "this is 2nd despction",
-            rating: "5.5"
-        },
-        {
-            title:"E-learning",
-            desc:"this is descption",
-            rating: 6.7
-        },
-        {
-            title: "E-learning 2",
-            desc: "this is 2nd despction",
-            rating: "5.5"
+            title: "Web Development: Introduction",
+            desc: "Mar 5,2020 - Mar 20,2020",
+            rating: "9.5"
         }
         ]
     return (
         <div className="backgroundcolor" style={{width: "100%" , marginTop: "-2px"}}>
-            {allcourses.map((course , index) => <CourseTab courses={course}/>)}
+            {allCourses.map((course , index) => <Tab courses={course}/>)}
         </div>
     );
 }

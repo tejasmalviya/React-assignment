@@ -1,26 +1,20 @@
 import React from 'react';
-//import './App.css';
 import NavBar from "./components/NavBar";
-import Course from "./components/CourseSetion"
-import UserProfile from "./components/UserProfile";
-import "./components/navstyle.css"
-import SignUp from "./components/SignUp";
-import Log from "./components/Login";
+import CourseSection from "./components/CourseSection"
+import UserSection from "./components/UserSection";
+import "./components/css/Style.css"
 
-function App() {
-  return (
-      <div className="App backgroundcolor">
-          <div className="main-sections flex-container" >
-              <div className="flex-lg-grow-1" id="major">
-                  <NavBar/>
-                  <Course/>
-
-              </div>
-              {/*<UserProfile className="flex-sm-fill"/>*/}
-              <Log/>
+function App () {
+    return (
+        <div className="App flex-container backgroundcolor">
+            <div className="flex-lg-grow-1 " id="major">
+                <NavBar/>
+                <CourseSection/>
             </div>
-      </div>
-  );
+            {/*<UserProfile className="flex-sm-fill"/>*/ }
+            <UserSection/>
+        </div>
+    );
 }
 
 export default App;

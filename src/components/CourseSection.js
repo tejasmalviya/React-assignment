@@ -1,9 +1,9 @@
 import React from 'react';
-import "./navstyle.css";
+import "./css/Style.css";
 import {Jumbotron, Tab, Tabs} from "react-bootstrap";
 import AllCourseTabs from "./AllCourseTabs";
-import eLearn from "../a3.PNG";
-import courseImg from "../a4.PNG";
+import eLearnImg from "./img/eLearnImg.PNG";
+import courseImg from "./img/courseImg.PNG";
 
 
 function Course() {
@@ -11,9 +11,11 @@ function Course() {
         <div className="flex-container container-fluid backgroundcolor" >
             <div className="container-fluid" id="major">
 
-                <Jumbotron id="course-heading" className="backgroundcolor jumbo-heading">
-                    <h1>All Courses</h1>
+                <Jumbotron id="course-heading" className="backgroundcolor">
+                    <h1>My Courses</h1>
                 </Jumbotron>
+
+                {/*Since data is not available and to keep it simple same Courses are shown in all sections*/}
 
                 <Tabs defaultActiveKey="allCourse"  className="backgroundcolor" style={{ width: "100%" }}>
                     <Tab eventKey="allCourse" title="All Courses" tabClassName="tab-headings">
@@ -23,13 +25,13 @@ function Course() {
                         <AllCourseTabs/>
                     </Tab>
                     <Tab eventKey="archived" title="Archived" tabClassName="tab-headings">
-                        <p>dsfdgsfgfh</p>
+                        <AllCourseTabs/>
                     </Tab>
                     <Tab eventKey="upcoming" title="Upcoming" tabClassName="tab-headings">
-                        <p>dsf</p>
+                        <AllCourseTabs/>
                     </Tab>
                     <Tab eventKey="watchlist" title="Watchlist" tabClassName="tab-headings">
-                        <p>dsf</p>
+                        <AllCourseTabs/>
                     </Tab>
                 </Tabs>
 
@@ -37,7 +39,7 @@ function Course() {
 
             <div className="container-fluid" id="minor" >
                 <img className="float-right mid-img"
-                     src={eLearn}
+                     src={eLearnImg}
                      width="230"
                      height="230"
                      alt="Learning logo"

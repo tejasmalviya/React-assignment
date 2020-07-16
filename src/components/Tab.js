@@ -1,37 +1,35 @@
 import React from 'react';
-import logo from "../logo.svg";
+import tabIcon from "./img/tabIcon.jpg"
 
-function CourseTab(props) {
+function Tab(props) {
     return (
 
-        <div className="container-fluid course-tab">
-            <img style={{padding:10}}
-                src={logo}
-                width="100"
-                height="100"
+        <div className="container-fluid course-tab" >
+            <img id="tabImgSection"
+                src={tabIcon}
+                 width="40"
+                height="90"
                 className="d-inline-block align-top"
                 alt="React logo"
             />
-            <div className="container-fluid align-content-end" style={{padding:10}}>
-                <h3>
+            <div className="container-fluid" id="tabMidSection">
+                <h4>
                     {props.courses.title}
 
-                </h3>
-                <h6>
+                </h4>
+                <h6 className="text-black-50">
                     {props.courses.desc}
                 </h6>
             </div>
-            <div className="container-fluid button-div" >
+            <div className="container-fluid flex-container" id="tabEndSection">
                 <h4 style={{marginTop:0,padding:10}}>
                     {props.courses.rating}
                 </h4>
                 <button className="btn btn-primary tab-button">View Course</button>
             </div>
 
-
-
         </div>
     );
 }
 
-export default CourseTab;
+export default Tab;

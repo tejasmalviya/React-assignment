@@ -1,5 +1,5 @@
 import React from 'react';
-import "./navstyle.css"
+import "./css/Style.css"
 import ProfileNav from "./ProfileNav";
 
 function UserProfile(props) {
@@ -17,7 +17,7 @@ function UserProfile(props) {
             <h3>
                 {props.user.name}
             </h3>
-                <h6 id="user-tag">
+                <h6 className="text-black-50">
                     {props.user.email}
                 </h6>
             </div>
@@ -26,7 +26,7 @@ function UserProfile(props) {
                         <p className="text-black-50 pt-3">
                             Completed Course
                         </p>
-                        <p className="text-xl-center" style={{fontSize:"35px",marginTop:"-25px"}}>
+                        <p className="text-xl-center boxNum" >
                             16
                         </p>
                 </div>
@@ -34,7 +34,7 @@ function UserProfile(props) {
                     <p className="text-black-50 pt-3">
                         Certificate Earned
                     </p>
-                    <p className="text-xl-center" style={{fontSize:"35px",marginTop:"-25px"}}>
+                    <p className="text-xl-center boxNum">
                         14
                     </p>
                 </div>
@@ -42,7 +42,7 @@ function UserProfile(props) {
                     <p className="text-black-50 pt-3">
                         Course in Progress
                     </p>
-                    <p className="text-xl-center" style={{fontSize:"35px",marginTop:"-25px"}}>
+                    <p className="text-xl-center boxNum">
                         8
                     </p>
                 </div>
@@ -50,7 +50,7 @@ function UserProfile(props) {
                     <p className="text-black-50 pt-3">
                         Forum Discursions
                     </p>
-                    <p className="text-xl-center" style={{fontSize:"35px",marginTop:"-25px"}}>
+                    <p className="text-xl-center boxNum">
                         26
                     </p>
                 </div>
