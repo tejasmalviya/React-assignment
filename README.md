@@ -1,4 +1,4 @@
-Courses React App
+**Courses React App
 
 To Run the Project:
 
@@ -9,15 +9,12 @@ git clone [repository url]
 cd [local repository]
 
 //Step 3: 
-/* Delete the node_modules folder and any 'lock' files such as 
-yarn.lock or package-lock.json if present.*/
-
-//Step 4: 
 npm install
 
-//Step 5:
+//Step 4:
 npm start
 
+**Please run on http://localhost:3000 only!!
 
 Dribbble Link : https://dribbble.com/shots/10750999-Top-Online-Courses/attachments/2418830?mode=media
 
