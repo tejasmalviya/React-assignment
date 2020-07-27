@@ -4,9 +4,15 @@ import logo from './img/logo.svg';
 import "./css/Style.css";
 
 function NavBar() {
+    const isMobile=()=> {
+        if (window.innerWidth < 800) {
+            window.location.href = "/usersection"
+        }
+    }
     return (
         <Navbar  expand="lg" className="backgroundcolor">
-            <Navbar.Brand href="">
+            <Navbar.Brand onClick={() => isMobile()}>
+
                 <img
                     src={logo}
                     width="70"
